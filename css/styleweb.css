@@ -1,0 +1,66 @@
+/*
+بشوف اول شي الشغلات المشتركة متل الهوفر وال ديفات والهيدينغ 
+*/
+/* general css style*/
+.clear{
+	clear: both;
+}
+body{
+font-family: 'Varela Round', sans-serif;
+}
+*{
+	padding:0;
+	margin :0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin:auto;
+}
+/*header */
+.header-content{ /* another solution foe float problem*/
+	overflow:hidden;
+}
+.header{
+	background:gray;
+}
+.header .logo{
+	width:40%;
+	float:left;
+}
+.header .nav {
+	width:60%;
+	float:left;
+	list-style:none;
+}
+.header .nav li{
+	display:inline-block;	
+}
+.header .nav li a{
+	text-decoration:none;
+	color:white;
+	padding: 30px 15px;
+	display:block;
+}
+/* Home section*/
+.home{
+	height:100vh;
+	background-image:url(../images/background/background1.webp);
+	background-size: cover;
+	position:relative;
+}
+.overlay{
+	position:absolute;
+	width: 100%;
+	height:100%;
+	left:0;
+	top:0;
+	background-color: rgba(0,0,0,0.5)
+}
+/* About section*/
+/* portfolio section*/
+/* service section*/
+/* prices section*/
+/* team section*/
+/* blog page*/
+/* contact section*/
